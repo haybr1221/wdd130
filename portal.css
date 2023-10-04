@@ -1,5 +1,5 @@
-body {
-    background-color: coral;
+#content {
+    background-color: lightgray;
 }
 a {
     background-color: lightblue;
@@ -9,12 +9,37 @@ a {
     margin: 5px;
     text-align: center;
 }
+a:hover {
+    background-color: black;
+    color: white;
+}
 nav {
     display: flex;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
 }
 #primary {
     background-color: white;
 }
-/* .background {
-    background-color:
-} */
+p {
+    text-align: center;
+    width: 75%;
+    margin:10px auto;
+    padding: 10px; 
+}
+.background {
+    background-color: lightgray;
+}
+footer p {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+}
