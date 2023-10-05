@@ -1,0 +1,86 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body {
+    background-color: #0C57A4;
+}
+header {
+    background-color: #0C57A4;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #F28F3B;
+    color: #0C57A4;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+.home-title {
+    color: white;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+h4 {
+    color: white;
+}
+.button-box {
+    text-align: center;
+}
+.book {
+    background-color: #F28F3B;
+    color: white;
+    text-decoration: non;
+}
+.book:hover {
+    background-color: #7598C5;
+    color: white;
+}
+.icon {
+    width: 80px
+}
+.join {
+    background-color: #F28F3B;
+    color: white;
+}
+.join:hover {
+    background-color: #7598C5;
+    color: white;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #F28F3B;
+}
+.msg {
+    background-color: #F28F3B;
+}
+.msg h2 {
+    color: white;
+}
+.msg p {
+    color: white;
+}
+footer {
+    background-color: #F28F3B;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
