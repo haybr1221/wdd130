@@ -221,7 +221,7 @@ footer .social img {
     margin: 0 auto;
     overflow: hidden;
 }
-
+/* other css for subpage: */
 p {
     font-family: Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -229,6 +229,9 @@ p {
 ul {
     font-family: Geneva, Tahoma, sans-serif;
     font-size: 15px;
+}
+.image {
+    text-align: center;
 }
 
 @media screen and (max-width: 900px) {
