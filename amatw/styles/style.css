@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F94444;
+    font-family: Roboto, Verdana, Geneva;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 100%;
+    background-color: #F94444;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Bebas Neue, Roboto, Verdana;
+    font-size: 26px;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 35px;
+}
+nav a:hover {
+    background: #F5D43E;
+    color: black;
+}
+.logo {
+    width: 80px;
+}
+
+
+#intro {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+    #title {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: center;
+    }
+    #message {
+        grid-column: 2/3;
+        text-align: center;
+    }
+
+
+#pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 20px;
+}
+.proj, .charas {
+    max-width: 300px;
+}
+
+.proj img, .charas img {
+        box-sizing: border-box;
+        border: 8px solid white;
+        width: 100%;
+        transition: transform .5s;
+    }
+    .proj img:hover, .charas img:hover {
+        transform: scale(1.1)
+    }
+
+.button-box {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+    .projects-button, .charas-button {
+        background-color: #f5d43e;
+        color: black;
+        text-decoration: none;
+        font-family: 'Bebas Neue', 'Roboto', Verdana;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    .projects-button:hover, .charas-button:hover {
+        background-color: #30BCED;
+        color: white;
+    }
+
+#copyright {
+    font-size: 10px;
+}
