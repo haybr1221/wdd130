@@ -39,9 +39,14 @@ nav a {
     color: white;
     padding: 35px;
 }
-nav a:hover {
-    background: #F5D43E;
+nav a.active {
+    background-color: #F5D43E;
     color: black;
+}
+
+nav a:hover {
+    background: #30BCED;
+    color: white;
 }
 .logo {
     width: 80px;
